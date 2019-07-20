@@ -10,3 +10,6 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Linux binary output should be ignored (assuming > go build -o gomonday is used)
+gomonday
